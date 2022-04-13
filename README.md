@@ -1,4 +1,4 @@
-# vue-vite-ts-project
+# vue3-vite-ts-template
 
 This template should help get you started developing with Vue 3 in Vite.
 

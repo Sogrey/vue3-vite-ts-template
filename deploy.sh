@@ -28,7 +28,7 @@ echo -e "\033[32;40m [2/3] \033[0m building..."
 
 npm run build && cd dist
 
-echo -e "\033[32;40m [2/3] \033[0m deploy to github pages..."
+echo -e "\033[32;40m [3/3] \033[0m deploy to github pages..."
 
 git init
 git add -A

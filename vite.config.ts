@@ -6,6 +6,10 @@ import vueJsx from '@vitejs/plugin-vue-jsx'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+    root: "./",
+    base: "./",
+    mode:'development',// 'development'（开发模式），'production'（生产模式）
+    // publicDir:"./",
     plugins: [vue(), vueJsx()],
     resolve: {
         alias: {
@@ -15,15 +19,15 @@ export default defineConfig({
     build: {
         target: 'modules',
         outDir: 'dist', // 指定输出路径
-        assetsDir: './assets', // 指定生成静态资源的存放路径
+        assetsDir: 'assets', // 指定生成静态资源的存放路径
         minify: 'terser', // 混淆器,terser构建后文件体积更小
         sourcemap: false,
-        terserOptions: {
-            compress: {
-                drop_console: true, // 生产环境移除console
-                drop_debugger: true // 生产环境移除debugger
-            }
-        },
+        // terserOptions: {
+        //     compress: {
+        //         drop_console: true, // 生产环境移除console
+        //         drop_debugger: true // 生产环境移除debugger
+        //     }
+        // },
         // rollupOptions: {
         //     treeshake: false,
         //     output: {

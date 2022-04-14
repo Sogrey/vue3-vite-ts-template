@@ -1,0 +1,1 @@
+import{_ as e,o as a,c as s,a as t}from"./index.9f6cb58a.js";const o={},r={class:"about"},i=[t("h1",null,"This is an about page",-1)];var n=e(o,[["render",function(e,t){return a(),s("div",r,i)}],["__file","G:/workspace/Sogrey/vue3-vite-ts-template-new/src/views/AboutView.vue"]]);export{n as default};

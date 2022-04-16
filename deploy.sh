@@ -35,6 +35,6 @@ git add -A
 git commit -m "🚀 deploy github pages."
 
 # 如果你想要部署到 https://USERNAME.github.io
-git push -f git@github.com:Sogrey/vue3-vite-ts-template.git master:gh-pages
+git push -f git@github.com:Sogrey/vue3-vite-ts-template.git main:gh-pages
 
 echo -e "\033[32;40m done \033[0m "
